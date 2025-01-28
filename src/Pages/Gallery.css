@@ -1,0 +1,60 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.eng-wallpaper {
+    width: 100%;
+}
+
+.gallery-text {
+    position: absolute;
+    margin: 5% 0% 0% 10%;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-left: 3px solid white;
+    padding: 0% 0% 0% 0.5%;
+}
+
+.pic-set-title {
+    width: 30%;
+    padding: 2%;
+    margin: 10px auto 10px auto;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.gallery-picture-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 95%;
+    margin: 10px auto 10px auto;
+}
+
+.gallery-picture-set {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 50%;
+    padding: 1%;
+}
+
+.workpic {
+    border-radius: 5%;
+    width: 100%;
+}
+
+.pic-caption {
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-style: italic;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 70%;
+}

@@ -1,0 +1,43 @@
+.login-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 2% auto 2% auto;
+}
+
+.login-name,
+.login-password {
+    width: 90%;
+}
+
+.submit-button {
+    width: 50%;
+}
+
+.login-name,
+.login-password,
+.submit-button {
+    padding: 2%;
+    margin: 2% 0% 2% 0%;
+}
+
+.submit-button:hover {
+    background-color: green;
+    border: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin: 10px 0;
+}

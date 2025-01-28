@@ -1,0 +1,38 @@
+.user-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.sign-up,
+.login {
+    border: none;
+    background-color: inherit;
+    font-size: 90%;
+    width: 20%;
+    padding: 2%;
+}
+
+.sign-up:hover,
+.login:hover {
+    border-bottom: 2px solid navy;
+}
+
+.user-background {
+    width: 100%;
+}
+
+.user-text-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20% 0% 0% 10%;
+}
+
+.user-text1 {
+    color: black;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    font-size: 250%;
+}

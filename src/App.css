@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
+  width: 60%;
+  text-decoration: none;
+}
+
+.link-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: navy;
+  font-size: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.link-tag:hover {
+  color: black;
+  text-shadow: 2px 2px white;
+  background-color: rgb(235, 230, 230);
+  border-bottom: 2px solid black;
+}
+
+.Logo {
+  margin: 1%;
+  width: 20%;
+}

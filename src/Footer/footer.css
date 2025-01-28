@@ -1,0 +1,52 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 50%;
+    padding: 5px;
+    border-top: 1px solid black;
+    margin: 20px 0px 0px 0px;
+    background-color: black;
+    color: white;
+}
+
+.page-links,
+.address-container,
+.telephone-container,
+.email-container,
+.social-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 120%;
+    margin: 1%;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {   
+    color: white;
+    text-decoration: none;
+}
+
+.content-socials {
+    width: 100%;
+}
+
+.socials {
+    margin: 1%;
+    width: 10%;
+}
+
+.content {
+    font-size: 100%;
+    margin: 0% 0% 0% 1%;
+}
